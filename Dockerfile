@@ -1,5 +1,7 @@
 FROM node:20-alpine
 
+LABEL org.opencontainers.image.source=https://github.com/deuspaul/l9dtcs
+
 ARG NPM_TOKEN
 
 ENV NPM_DOCKER_TOKEN=$NPM_TOKEN
